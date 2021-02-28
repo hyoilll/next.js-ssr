@@ -5,6 +5,7 @@ import Item from "../../src/component/Item";
 import { Loader } from "semantic-ui-react";
 import Head from "next/head";
 
+// 서버사이드 랜더링으로 인해 post컴포넌트가 실행될 때 item을 props로 받을 수 있음
 const Post = ({ item }) => {
   return (
     <>

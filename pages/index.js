@@ -15,7 +15,6 @@ export default function Home() {
   const getData = () => {
     // npm i axios
     axios.get(URL).then((res) => {
-      console.log(res.data);
       setList(res.data);
       setIsLoading(false);
     });
